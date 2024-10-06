@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap');
+*{
+    font-family:"Nunito", sans-serif;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background-image: url("../img/CoverGym.jpg");
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 150vh;
+}
+nav{
+    background-color: #00000087;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+li{
+    list-style: none;
+}
+.link a{
+    color: white;
+    position: relative;
+    font-size: 1.3em;   
+    float: right;
+    text-decoration: none;
+    padding: 20px 20px 20px 20px;
+}
+.linkLogo a{
+    color: white;
+    font-size: 1.5em;
+    float: left;
+    text-decoration: none;
+    padding: 20px 20px 20px 20px;
+}
+.test::after{
+    content:'';
+    position: absolute;
+    width: 100%;
+    height: 0.17rem;
+    background: white;
+    left: 0;
+    bottom: 0;
+    transform: scale(0, 1);
+    transition: transform 0.7s ease;
+}
+.test:hover::after{
+    transform: scale(1, 1);
+ 
+}
+.content_page{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+.Title{
+    position: absolute;
+    top: 180px;
+    left: 27%;
+}
+.Title h1{
+    font-size: 6em;
+    color: white;
+}
+.Title span{
+    color: #f9ef23;
+}
+.FormS{
+    position: relative;
+    height: 35vh;
+    width: 100%;
+    top: 650px;
+    background-color: #f9ef23;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 4px 16px 4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 16px 4px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 16px 4px rgba(0,0,0,0.75);
+
+}
+.NameForm .Name{
+    float: left;
+    padding: 35px 35px;
+}
+.Name input ,select {
+    width: 180px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+.NameForm{
+}
+
+.about{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    height: auto;
+    height: 100vh;
+    
+}
+section .Tit{
+    width: 100%;
+    font-size: 2em;
+    padding: 50px 50px 50px 50px;
+}
+.Titee{
+    width: 20%;
+    position: relative;
+    text-align: center;
+    left: 40%;
+}
+.Titee::after{
+    display: block;
+    content: '';
+    width: 60%;
+    height: 3px;
+    background: black;
+    position: absolute;
+    bottom: 0; 
+    left: 20%;
+}
+
+
+.Titee::before{
+    display: block;
+    content: '';
+    width: 100%;
+    height: 3px;
+    background: black;
+    position: absolute;
+    bottom:-15px;
+    left: 0;
+}
+
+section .conte{
+    width: 50%;
+    float: left;
+    padding: 30px 30px 30px 30px;
+}
+section .Pic{
+    padding: 30px 30px 30px 30px;
+    width: 50%;
+    float: right;
+}
+.Pic video{
+    width: 100%;
+}
+.Pic img{
+    width: 100%;
+}
+.Titee1{
+    width: 25%;
+    position: relative;
+    text-align: center;
+    left: 40%;
+}
+.Titee1::after{
+    display: block;
+    content: '';
+    width: 60%;
+    height: 3px;
+    background: black;
+    position: absolute;
+    bottom: 0; 
+    left: 20%;
+}
+
+
+.Titee1::before{
+    display: block;
+    content: '';
+    width: 100%;
+    height: 3px;
+    background: black;
+    position: absolute;
+    bottom:-15px;
+    left: 0;
+}
+.SecondCont{
+    width: 100%;
+    background-color: #f9ee23ab;
+}
+.card_page{
+    width: 100%;
+    height: auto;
+}
+.cards{
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+    top: 20px;
+    height: auto;
+}
+.inner{
+    text-align: center;
+    overflow: auto;
+    width: 30%;
+    float: left;
+    border-radius: 5px;
+    margin: 10px 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: transform 0.2s;
+}
+.img_card{
+    border-radius: 50px;
+}
+.cards img{
+    width: 100%;
+}
+.card_info{
+    margin: 0 15px 10px 15px;
+}
+
+.btn_visit button{
+    border-radius: 25px;
+    text-align: center;
+    background-color: #f9ef23;
+    padding: 15px 35px;
+    cursor: pointer;
+    color: white;
+}
+
+.inner:hover{
+    transform: scale(1.1);
+}
+.Titee2{
+    width: 35%;
+    position: relative;
+    text-align: center;
+    left: 35%;
+}
+.Titee2::after{
+    display: block;
+    content: '';
+    width: 60%;
+    height: 3px;
+    background: black;
+    position: absolute;
+    bottom: 0; 
+    left: 20%;
+}
+
+
+.Titee2::before{
+    display: block;
+    content: '';
+    width: 100%;
+    height: 3px;
+    background: black;
+    position: absolute;
+    bottom:-15px;
+    left: 0;
+}
+
+.about3{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    height: auto;
+    height: 100vh;   
+}
+.Pic iframe{
+    width: 100%;
+}
+
